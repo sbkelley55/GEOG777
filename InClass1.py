@@ -1,26 +1,26 @@
 ## Iteration 1 - Iconic lyrics
 
-#n = 5
-#while n > 0:
-#    print ("Hello"*3)
-#    print ("How low")
-#print ("Entertain us!")
+n = 5
+while n > 0:
+    print ("Hello"*3)
+    print ("How low")
+print ("Entertain us!")
 
 ## Iteration 2 - Iconic lyrics
 
-#n = 0
-#while n > 0:
-#    print ("Hello"*3)
-#    print ("How low")
-#print ("Entertain us!")
+n = 0
+while n > 0:
+    print ("Hello"*3)
+    print ("How low")
+print ("Entertain us!")
 
-# Using Breaks in Loops
-#while True:
-#    line = input('> ')
-#    if line == 'all done':
-#        break
-#    print (line)
-#print ('All Done!')
+# Using Breaks in Loops - Evaluating User Input
+while True:
+    line = input('> ')
+    if line == 'all done':
+        break
+    print (line)
+print ('All Done!')
 
 # While loop with a nice little list operation trick
 names = ['carter', 'boyd', 'steffan','tim','leroy','dave']
@@ -53,7 +53,6 @@ print ("That's Nevada!")
 
 # Evaluating Values from an ordered set
 # Find the largest population value! Looking at you, Vegas...#
-NVPopulations2017 = [54745,24230,2204079,48309,52649,850,1961,16826,5693,5223,54122,4457,44202,6508,4006,460587,9592]
 largest_pop = -99
 print ('Start', largest_pop)
 for i in NVPopulations2017:
@@ -62,26 +61,23 @@ for i in NVPopulations2017:
     print (largest_pop, i)
 print ('End', largest_pop)
 
-# Setting a counter - keep this tool handy in your back pocket #
+# Setting a counter #
 state_pop = 0
 print ('Start the count!')
-NVPopulations2017 = [54745,24230,2204079,48309,52649,850,1961,16826,5693,5223,54122,4457,44202,6508,4006,460587,9592]
 for i in NVPopulations2017:
     state_pop = state_pop + 1
     print (state_pop, i)
 print ("It's over!", state_pop)
 
-# Setting a counter - keep this tool handy in your back pocket #
+# Setting a counter and calculating incremental sums#
 state_pop = 0
 print ('Start the tabulating!')
-NVPopulations2017 = [54745,24230,2204079,48309,52649,850,1961,16826,5693,5223,54122,4457,44202,6508,4006,460587,9592]
 for i in NVPopulations2017:
     state_pop = state_pop + i
     print (state_pop, i)
 print ("It's over! Nevada's population is...", state_pop)
 
 # To find the smallest number, run this code, and then edit to get meaningful answer #
-NVPopulations2017 = [54745,24230,2204079,48309,52649,850,1961,16826,5693,5223,54122,4457,44202,6508,4006,460587,9592]
 smallest_pop = -99
 print ('Start the tabulating!')
 for i in NVPopulations2017:
@@ -91,7 +87,6 @@ for i in NVPopulations2017:
 print ('End', smallest_pop)
 
 # Using 'is' and 'is not' statements to find the smallest county - looking at you, Goldfield
-NVPopulations2017 = [54745,24230,2204079,48309,52649,850,1961,16826,5693,5223,54122,4457,44202,6508,4006,460587,9592]
 smallest = None
 print ('Before')
 for i in NVPopulations2017:
